@@ -46,7 +46,7 @@
 from scheduler.scheduler import Scheduler
 
 # 👇 Ask manager for absent employees
-absent_input = input("Enter absent employees today (comma separated or N/A): ")
+absent_input = input("Enter absent employees IDs (comma separated or N/A): ")
 
 if absent_input.strip().upper() in ["N/A", "NO", "NONE", ""]:
     absent_today = []

@@ -199,12 +199,16 @@ class Scheduler:
 
     def __init__(self, employee_file, task_file, absent_today=None):
 
-        self.absent_today = absent_today or []
+        self.absent_today = {
+            emp_id.strip().upper()
+            for emp_id in (absent_today or [])
+        }
 
         # Load employees
         df_employees = pd.read_csv(employee_file)
         self.employees = [
             Employee(
+                employee_id=row["EmployeeID"],
                 name=row["Name"],
                 shift=row["Shift"],
                 employment_type=row["Type"],
@@ -239,7 +243,7 @@ class Scheduler:
             # Filter available employees
             shift_employees = [
                 e for e in self.employees
-                if e.shift == shift and e.name not in self.absent_today
+                if e.shift == shift and e.employee_id not in self.absent_today
             ]
 
             if not shift_employees:
