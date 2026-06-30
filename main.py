@@ -56,7 +56,7 @@ else:
 # 👇 Pass absent list into scheduler
 scheduler = Scheduler(
     "data/employees.csv",
-    "data/tasks.csv",
+    "data/general_tasks.csv",
     absent_today
 )
 

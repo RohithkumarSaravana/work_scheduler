@@ -1,22 +1,22 @@
-Name,Shift,Type
-Chloe,Morning,Full Time
-Malkhaz,Morning,Full Time
-Kathleen,Morning,Full Time
-Lisa Phillips,Morning,Full Time
-Ana,Evening,Part Time
-Sowmiya,Evening,Part Time
-Saranya,Evening,Part Time
-Dave,Evening,Full Time
-Jean,Night,Full Time
-Evita,Night,Full Time
-Arvin,Night,Full Time
-Lea,Night,Full Time
-Nelio,Night,Full Time
-Shantal,Night,Full Time
-Anna T,Night,Full Time
-Stefano,Night,Part Time
-Nadia,Night,Part Time
-Manthan,Night,Part Time
-Rohith,Night,Part Time
-Ewa,Night,Full Time
-Joel,Night,Full Time
+Name,Shift,Type,StartTime,EndTime
+Chloe,Morning,Full Time,09:30,13:30
+Malkhaz,Morning,Full Time,09:30,13:30
+Kathleen,Morning,Full Time,09:30,13:30
+Lisa Phillips,Morning,Full Time,09:30,13:30
+Ana,Evening,Part Time,18:00,22:00
+Sowmiya,Evening,Part Time,18:00,22:00
+Saranya,Evening,Part Time,18:00,22:00
+Dave,Evening,Full Time,15:45,22:15
+Jean,Night,Full Time,21:30,06:00
+Evita,Night,Full Time,21:30,06:00
+Arvin,Night,Full Time,21:30,06:00
+Lea,Night,Full Time,21:30,06:00
+Nelio,Night,Full Time,21:30,06:00
+Shantal,Night,Full Time,21:30,06:00
+Anna T,Night,Full Time,21:30,06:00
+Stefano,Night,Part Time,02:00,06:00
+Nadia,Night,Part Time,02:00,06:00
+Manthan,Night,Part Time,02:00,06:00
+Rohith,Night,Part Time,02:00,06:00
+Ewa,Night,Full Time,21:30,06:00
+Joel,Night,Full Time,21:30,06:00

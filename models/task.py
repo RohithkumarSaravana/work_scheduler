@@ -4,3 +4,4 @@ from dataclasses import dataclass
 class Task:
     name: str
     shift: str
+    duration: int = 60
